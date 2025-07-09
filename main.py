@@ -19,3 +19,4 @@ async def say_hello(name: str, age: int):
 @app.get("/hello/{name}/{age}/{height}")
 async def say_hello(name: str, age: int, height: float):
     return {"message": f"Hello {name}, you are {age} years old and {height} meters tall"}
+
